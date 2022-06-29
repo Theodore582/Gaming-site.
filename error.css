@@ -1,0 +1,22 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-image: linear-gradient(black,gray);
+    height: 100vh;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 20%;
+    font-size: 50px;
+}
+
+.button{
+    text-align: center;
+}
+

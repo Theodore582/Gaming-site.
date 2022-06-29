@@ -1,0 +1,68 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    background-image:linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0),black);
+}
+header ul{
+    list-style:none;
+    display: flex;
+    margin-left: 400px;
+}
+
+header h2:hover{
+    outline: 2px;
+    border: 2px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    cursor: pointer;
+    border-style: double;
+    border-color: bisque;
+}
+
+header ul li{
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;    
+}
+
+header ul li a{
+    color: aliceblue;
+    text-decoration: overline;
+}
+header ul li:hover{
+    background:linear-gradient(black,rgba(2, 46, 46, 0.507));
+    color:azure
+}
+
+body{
+    background-image: linear-gradient(rgb(8, 8, 39),black);
+    height: 100vh;
+}
+
+.card{
+   text-align: center;
+   margin-top: 5%;
+   margin-left: 10%;
+   font-family: Stick No Bills, sans-serif;
+}
+
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+
+.inner:hover img{
+    transform:scale(1.5);
+}
