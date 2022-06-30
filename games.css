@@ -1,7 +1,11 @@
 *{
     padding: 0%;
     margin: 0%;
+    overflow-x:hidden;
 }
+::-webkit-scrollbar {
+    display: none;
+  }
 
 header{
     height: 60px;
@@ -47,6 +51,8 @@ header ul li:hover{
 body{
     background-image: linear-gradient(rgb(8, 8, 39),black);
     height: 100vh;
+    background-image: url(images/lastofuss.jpg);
+    backdrop-filter: blur(5px);
 }
 
 .card{

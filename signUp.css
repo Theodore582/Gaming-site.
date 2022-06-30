@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow-x:hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+header{
+    height: 60x;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    background-image:linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0),black);
+}
+header ul{
+    list-style:none;
+    display: flex;
+    margin-left: 400px;
+}
+
+header h2:hover{
+    outline: 2px;
+    border: 2px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    cursor: pointer;
+    border-style: double;
+    border-color: bisque;
+}
+
+header ul li{
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;    
+}
+
+header ul li a{
+    color: aliceblue;
+    text-decoration: overline;
+}
+header ul li:hover{
+    background:linear-gradient(black,rgba(2, 46, 46, 0.507));
+    color:rgb(5, 0, 53)
+}
+
+
+
+
+
+body{
+    background-image: url(images/tomb\ raider.webp);
+    height: 100vh;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+
+form{
+    margin-top: 110px;
+    margin-left:600px ;
+    font-family: Stick No Bills, sans-serif;
+    
+
+   
+}
+
+input{
+     display: block;
+    width:350px ;
+    height: 40px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    background:transparent;
+    color: silver;
+}
+
+button{
+    width:300px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    margin-top: 20px;
+    border-radius: 20%;
+    margin-left: 50px;
+}
+
+button:hover{
+    width: 330px;
+    height: 50px;
+    font-size:30px;
+    background-image: linear-gradient(black,rgb(131, 131, 131),rgb(7, 4, 4));
+    
+}
+
+form h1{
+    margin-bottom: 30px;
+    color: silver;
+    font-weight: 200px;
+    font-size: 50px;
+    margin-left: 100px; 
+
+}
+
+::placeholder{
+    color:silver;
+}
+
