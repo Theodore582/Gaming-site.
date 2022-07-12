@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+body{
+    background-image: url(images/sylas.jpg);
+    height: 100vh;
+    background-size:cover;
+    backdrop-filter: blur(5px);
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    padding:200px;
+    font-family:Stick No Bills, sans-serif;
+}
+

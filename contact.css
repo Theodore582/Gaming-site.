@@ -1,0 +1,181 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    overflow-x:hidden;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+
+header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    background-image:linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0),black);
+}
+header ul{
+    list-style:none;
+    display: flex;
+    margin-left: 400px;
+}
+
+header h2:hover{
+    outline: 2px;
+    border: 2px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    cursor: pointer;
+    border-style: double;
+    border-color: bisque;
+}
+
+header ul li{
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;    
+}
+
+header ul li a{
+    color: aliceblue;
+    text-decoration: overline;
+}
+header ul li:hover{
+    background:linear-gradient(black,rgba(2, 46, 46, 0.507));
+    color:azure
+}
+
+body{
+    background-image: url(images/sylas.jpg);
+    height: 100vh;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    padding:40px;
+    font-family:Stick No Bills, sans-serif;
+}
+
+.container{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container .row100
+{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+
+.container .row100 .col
+{
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    margin: 30px 0 10px;
+    transition: 0.5s;
+}
+.container .row100 .inputBox{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    color: rgb(255, 255, 255);  
+    margin-left: 30%;
+}
+
+.container .row100 .inputBox input,
+.container .row100 .inputBox.textarea{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 0 10px;
+    z-index: 1;
+    color: beige;
+}
+
+.container .row100 .inputBox .text{
+    position: absolute;
+    top: 0;
+    left: 10;
+    line-height: 40px;
+    font-size: 18px;
+    padding: 0 10px;
+    display: block;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.container .row100 .inputBox input:focus + .text,
+.container .row100 .inputBox input:valid + .text{
+    top: -35px;
+    left: -10px;
+}
+
+.container .row100 .inputBox .line{
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 50%;
+    height: 2px;
+    background: #000000;
+    transition: 0.5s;
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+/* .container .row100 .inputBox input:focus ~ .line,
+.container .row100 .inputBox input:valid ~ .line{
+    height: 100%;
+}
+
+.container .row100 .inputBox.textarea{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 10px 0;
+} */
+
+/* .container .row100 .inputBox.textarea{
+    height: 100%;
+    resize: none;
+}
+
+.container .row100 .inputBox textarea:focus + .text,
+.container .row100 .inputBox textarea:valid + .text{
+    top: -35px;
+    left: -10px;
+}
+
+.container .row100 .inputBox textarea:focus ~ .line,
+.container .row100 .inputBox textarea:valid ~ .line{
+    height: 100%;
+} */
+
+input [type="submit"]
+{border: none;
+    padding: 7px 35px;
+    cursor: pointer;
+    outline: none;
+    background: #45f3ff;
+    color: #000;
+    font-size: 18px;
+    border-radius: 2px;
+}
