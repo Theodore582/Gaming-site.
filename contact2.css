@@ -1,21 +1,131 @@
 *{
     margin: 0%;
     padding: 0%;
-    overflow-x: hidden;
+    overflow-x:hidden;
 }
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+header{
+    height: 60x;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    background-image:linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0),black);
+}
+header ul{
+    list-style:none;
+    display: flex;
+    margin-left: 400px;
+}
+
+header h2:hover{
+    outline: 2px;
+    border: 2px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    cursor: pointer;
+    border-style: double;
+    border-color: bisque;
+}
+
+header ul li{
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;    
+}
+
+header ul li a{
+    color: aliceblue;
+    text-decoration: overline;
+}
+header ul li:hover{
+    background:linear-gradient(black,rgba(2, 46, 46, 0.507));
+    color:rgb(5, 0, 53)
+}   
+
 body{
-    background-image: url(images/sylas.jpg);
+    background-image: url(images/free.jpg);
     height: 100vh;
     background-size:cover;
     backdrop-filter: blur(5px);
     justify-content: center;
-    min-height: 100vh;
-    margin: 0;
+    color: rgb(255, 255, 255);
 }
 
-.container{
-    width: 80%;
-    padding:200px;
-    font-family:Stick No Bills, sans-serif;
+form{
+    margin-top: 110px;
+    margin-left:400px;
+    font-family: Stick No Bills, sans-serif;
+    width: 600px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    text-align: center;
+    border-radius: 6%;
+    background: rgba(0,0,0,.7);
+    backdrop-filter: blur(5px);
+    
+   
 }
 
+
+input{
+    display: block;
+    width:350px ;
+    height: 40px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background:transparent;
+    color: rgb(255, 255, 255);
+    line-height: 100%;
+    margin-bottom: 40px;
+    font-weight: 500;
+    align-items: center;
+    margin-left: 130px;
+   
+}
+
+button{
+    width:300px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    margin-top: 20px;
+    border-radius: 20%;
+    
+    
+}
+
+button:hover{
+    width: 330px;
+    height: 50px;
+    font-size:30px;
+    background-image: linear-gradient(black,rgb(131, 131, 131),rgb(7, 4, 4));
+    
+}
+
+form h1{
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 200px;
+    font-size: 50px;
+     
+
+}
+
+::placeholder{
+    color:rgb(255, 255, 255);
+  
+}
