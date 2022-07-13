@@ -4,7 +4,7 @@
 ## HOW IT LOOKS
 
 ### HOME PAGE
-![HOME PAGE]( images\Screenshot (7).png)
+![HOME PAGE](C:\Users\Theodore Annette\Documents\documents\programming\HTML-CSS\Gaming site\images\Screenshot (7).png)
 
 ### GAMES PAGE
 ![GAMES PAGE](images\Screenshot (8).png)
