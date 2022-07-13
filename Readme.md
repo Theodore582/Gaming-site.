@@ -8,10 +8,10 @@
 
 
 ### GAMES PAGE
-![GAMES PAGE](images\Screenshot (8).png)
+![images](images/Screenshot%20(8).png)
 
 ### SIGNUP PAGE
-![SIGNUP PAGE](images\Screenshot (9).png)
+![images](images/Screenshot%20(9).png)
 
 ### CONTACT PAGE
-![CONTACT PAGE](images\Screenshot (10).png )
+![images](images/Screenshot%20(10).png)
